@@ -8,7 +8,7 @@ pkl_filename = "/app/pickle-demo/Model.pkl"
 model = pickle.load(open(pkl_filename, 'rb'))
 
 # Title
-st.title('Salary Predictor')
+st.title('Salary Predictor APP')
 
 # Year of Experience
 exp = st.slider("Years of Experience", 0, 20, 1)
